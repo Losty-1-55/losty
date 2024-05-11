@@ -25,7 +25,7 @@ const r = new Discord.RichPresence()
     .setState('Join Now..!') // set any Status
   
     .setName('Lost™ G3N') // add your name
-    .setDetails('Lost™ Codings') // set your status
+    .setDetails('Lost™ Coding') // set your status
     /*.setParty({
         max: 9999,
         current: 6789,
