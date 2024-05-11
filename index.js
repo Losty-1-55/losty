@@ -20,12 +20,12 @@ client.on('ready', async () => {
                )
 const r = new Discord.RichPresence()
     .setApplicationId('1206103112302207036') // Keep this as it is
-    .setType('LISTENING') // You can Set Any other like PLAYING, LISTENING, STREAMING
-    .setURL('https://discord.gg/eKb7HWAWcS') //set any youtube or twitch link
-    .setState('JOIN NOW..!!') // set any Status
+    .setType('STREAMING') // You can Set Any other like PLAYING, LISTENING, STREAMING
+    .setURL('https://dsc.gg/losty-g3n') //set any youtube or twitch link
+    .setState('Join Now..!') // set any Status
   
-    .setName('-͟͟͞ᗰᑕ™〢! ᒪᗝᔕ丅™ $$') // add your name
-    .setDetails('-͟͟͞ᗰᑕ™〢! ᒪᗝᔕ丅™ $$ Coding') // set your status
+    .setName('Lost™ G3N') // add your name
+    .setDetails('Lost™ Codings') // set your status
     /*.setParty({
         max: 9999,
         current: 6789,
@@ -33,14 +33,14 @@ const r = new Discord.RichPresence()
     })*/
     
     //.setStartTimestamp(Date.now())
-    .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1206099442244128808/1207268271649325117/moon-anime.gif?ex=65df0731&is=65cc9231&hm=4e407dd1b01642bc17739a6e48600637bcc56a59d4d642362a0431e2a8800fad&') // add image link (form: .png, .gif').
-    .setAssetsLargeText('-͟͟͞Love u All <3') // set image name (type any name)
-    .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1206099442244128808/1207267503693111337/20240213_214602_0000.png?ex=65df067a&is=65cc917a&hm=7507a2e923e4c04132bd0df15cf2d717ee45872d961618c78ab268dc717ee198&') // add image link (form: .png, .gif).
-    .setAssetsSmallText('-͟͟͞ᗰᑕ™〢! ᒪᗝᔕ丅™ $$ Coding') // set image name (type any name)
-    .addButton('ᒪᗝᔕ丅™ G3N <3', 'https://discord.gg/rgmJ6Vtm9c') // add button name and paste the link like discord server, youtube channel, etc.
-    .addButton('FR3AK G3N <3', 'https://discord.gg/r8EQ5nRZa8') // add button name and paste the link like discord server, youtube channel, etc.
+    .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1221679558093312085/1229402162782539867/ezgif-7-24b7a272ee-removebg-preview.png?ex=664007bc&is=663eb63c&hm=061a8f5c3627ad15f27c193b41b864efe605e242873a29a578ebdc888ab61369&') // add image link (form: .png, .gif')
+    .setAssetsLargeText('Dm Me To Buy Accounts For Cheap') // set image name (type any name)
+    .setAssetsSmallImage('https://cdn.discordapp.com/emojis/1212931761835745320.gif?v=1&size=48&quality=lossless') // add image link (form: .png, .gif).
+    .setAssetsSmallText('accounts') // set image name (type any name)
+    .addButton('Lost™ G3N <3', 'https://discord.gg/XY4Fp88uVU') // add button name and paste the link like discord server, youtube channel, etc.
+    .addButton('Lost™ Shop <3', 'https://discord.gg/uMaR2Xbx75') // add button name and paste the link like discord server, youtube channel, etc.
      client.user.setActivity(r);
-     client.user.setPresence({ status: "dnd" }); // set your status (online,dnd, idle)
+     client.user.setPresence({ status: "idle" }); // set your status (online,dnd, idle)
 })
 
 client.login(process.env.TOKEN)
